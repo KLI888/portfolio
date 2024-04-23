@@ -1,0 +1,54 @@
+.contact__content b {
+    color: #147efb;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.contact__content h1 {
+    color: #2d2e32;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.contact__info {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+
+.contact__loc,  .contact__mail {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact__content i {
+    font-size: 25px;
+    color: #147efb;
+    font-weight: 500;
+}
+
+.contact__info h2 {
+    font-size: 16px;
+    color: #2d2e32;
+}
+
+.contact__info a {
+    padding-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #767676;
+}
+
+.contact__info a:hover {
+    cursor: pointer;
+    color: #147efb;
+}
